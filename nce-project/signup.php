@@ -11,7 +11,7 @@ if(isset($_POST['signup']) && isset($_POST['un'])){
         ':addr' => $_POST['address'],
     )
     );
-    echo "Sign Up Successful. Now you can login <a href='/NCE-PROJECT/'>Login</a>";
+    echo "Sign Up Successful. Now you can login <a href='/nce-project/'>Login</a>";
 }
 ?><br><br>
 <!DOCTYPE html>

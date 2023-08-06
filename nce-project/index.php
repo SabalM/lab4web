@@ -2,7 +2,7 @@
 session_start();
 
 if(isset($_SESSION['is_login']) && $_SESSION['is_login'] == 'yes'){
-    header('Location: /NCE-PROJECT/home.php');
+    header('Location: home.php');
 }
 
 ?>
@@ -27,7 +27,7 @@ if(isset($_SESSION['is_login']) && $_SESSION['is_login'] == 'yes'){
         Password: <input type="password" name="password"><br><br>
         <button type="submit">Login</button><br><br>
         Do not have account? 
-        <a href="/NCE-PROJECT/signup.php">Sign Up</a>
+        <a href="signup.php">Sign Up</a>
     </form><br>
     <?php include_once('layout/footer.php'); ?>
 </body>

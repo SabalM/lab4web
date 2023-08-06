@@ -9,7 +9,7 @@ if(isset($_SESSION['is_login']) || $_SESSION['is_login'] != 'yes'){
     else{
         $_SESSION["is_login"] = '';
         session_destroy();
-        header("Location: /NCE-PROJECT/index.php");
+        header("Location: index.php");
     }
 }
 ?>
@@ -45,7 +45,7 @@ if(isset($_SESSION['is_login']) || $_SESSION['is_login'] != 'yes'){
         </tr>-->
     </table>  
     <footer>
-        <a href="/nce-project/logout.php "> CLICK TO LOGOUT</a>
+        <a href="logout.php "> CLICK TO LOGOUT</a>
         <?php include_once('layout/footer.php'); ?>
     </footer>
 </body>
